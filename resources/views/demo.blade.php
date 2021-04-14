@@ -199,7 +199,7 @@
                 </div>
             </section>            
         </div>
-        <div class="footer-wraper container">
+        <div class="footer-wraper">
             <div class="footer-content">
                 <p>@ 2021 AnimalsFirst.com</p>
                 <ul>

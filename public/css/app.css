@@ -8590,31 +8590,34 @@ body.landing-page {
   margin-right: 15px;
 }
 
-.page-wrapper .bottom-bar {
+.bottom-bar {
 	background: #40cac1;
-	padding: 10px 80px;
 }
 
-.page-wrapper .bottom-bar h1 {
+.bottom-bar .container {
+  padding: 10px 80px;
+}
+
+.bottom-bar h1 {
 	color: #ffffff;
 }
 
-.page-wrapper .bottom-bar p{
+.bottom-bar p{
 	font-size: 20px;
 	color: #ffffff;
 }
 
-.page-wrapper .bottom-bar .row {
+.bottom-bar .row {
 	display: flex;
 	align-items: center;
 }
 
-.page-wrapper .bottom-bar .row .col-md-4 {
+.bottom-bar .row .col-md-4 {
 	display: flex;
   justify-content: flex-end;
 }
 
-.page-wrapper .bottom-bar .request-demo {
+.bottom-bar .request-demo {
 	color: black;
 }
 

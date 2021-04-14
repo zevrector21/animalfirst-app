@@ -236,7 +236,9 @@
                     </div>
                 </div>
             </section>
-            <section class="bottom-bar">
+        </div>
+        <section class="bottom-bar">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-xs-12">
                         <h1>Schedule your demo today!</h1>
@@ -246,9 +248,9 @@
                         <button class="btn btn-lg request-demo">REQUEST A DEMO</button>
                     </div>
                 </div>
-            </section>
-        </div>
-        <div class="footer-wraper container">
+            </div>
+        </section>
+        <div class="footer-wraper">
             <div class="footer-content">
                 <p>@ 2021 AnimalsFirst.com</p>
                 <ul>

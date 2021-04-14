@@ -95,16 +95,16 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img src="/images/7.png" alt="" width="100%" />
+                                    <img src="/images/slider1.png" alt="" width="100%" />
                                 </div>
                                 <div class="item">
-                                    <img src="/images/6.png" alt="" width="100%" />
+                                    <img src="/images/slider2.png" alt="" width="100%" />
                                 </div>
                                 <div class="item">
-                                    <img src="/images/5.png" alt="" width="100%" />
+                                    <img src="/images/slider3.png" alt="" width="100%" />
                                 </div>
                                 <div class="item">
-                                    <img src="/images/4.png" alt="" width="100%" />
+                                    <img src="/images/slider4.png" alt="" width="100%" />
                                 </div>
                             </div>
                         </div>
@@ -204,7 +204,9 @@
                     </div>
                 </div>
             </section>
-            <section class="bottom-bar">
+        </div>
+        <section class="bottom-bar">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-xs-12">
                         <h1>Schedule your demo today!</h1>
@@ -214,9 +216,9 @@
                         <button class="btn btn-lg request-demo">REQUEST A DEMO</button>
                     </div>
                 </div>
-            </section>
-        </div>
-        <div class="footer-wraper container">
+            </div>
+        </section>
+        <div class="footer-wraper">
             <div class="footer-content">
                 <p>@ 2021 AnimalsFirst.com</p>
                 <ul>
