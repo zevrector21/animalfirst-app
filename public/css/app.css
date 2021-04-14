@@ -8438,6 +8438,57 @@ body.landing-page {
   }
 }
 
+.header-content {
+  display: flex;
+  height: 74px;
+  padding: 0 110px 0 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-content .logo img {
+  height: 30px;
+}
+
+.header-content ul {
+  display: flex;
+  margin-bottom: 0;
+}
+
+
+.header-content ul li {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  color: #ffffff;
+  background: #383844;
+}
+
+.footer-content ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.footer-content ul li {
+  padding: 0 10px;
+}
+
+.footer-content ul li:not(:last-child) {
+  border-right: 1px solid #ffffff;
+}
+
+.footer-content ul a {
+  color: #ffffff;
+}
+
 .page-wrapper .top-bar .row {
     padding: 10px 80px 30px;
     display: flex;
@@ -8498,15 +8549,12 @@ body.landing-page {
 	margin: auto;
 }
 
-.page-wrapper .features .caption {
-    margin: 20px 0;
-}
 
 .page-wrapper .features .caption img { 
-    width: 100%;
-    height: 270px;
-    object-fit: cover;
-	object-position: center;
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .page-wrapper .features ul {
@@ -8515,15 +8563,15 @@ body.landing-page {
 }
 
 .page-wrapper .features ul li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .page-wrapper .features ul li img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 .page-wrapper .features ul li h4 {
@@ -8536,10 +8584,10 @@ body.landing-page {
 }
 
 .page-wrapper .features .testimonial .quote {
-    font-size: 130px;
-    color: #b5bfc6;    
-    line-height: 0.8;
-    margin-right: 15px;
+  font-size: 130px;
+  color: #b5bfc6;
+  line-height: 0.8;
+  margin-right: 15px;
 }
 
 .page-wrapper .bottom-bar {
@@ -8563,25 +8611,32 @@ body.landing-page {
 
 .page-wrapper .bottom-bar .row .col-md-4 {
 	display: flex;
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .page-wrapper .bottom-bar .request-demo {
 	color: black;
 }
 
+.page-wrapper .btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
 .page-wrapper .btns .btn {
 	border: 1px solid #ddd;
 	margin-right: 15px;
 	border-radius: 6px;
-    padding: 10px 12px;
-    background: inherit;
+  padding: 10px 12px;
+  background: inherit;
+  color: #676a6c;
 }
 
 .home-page .top-bar .row {
 	background-image: url(/images/shattered.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .home-page #features-carousel img {
@@ -8589,7 +8644,7 @@ body.landing-page {
 }
 
 .home-page #features-carousel .carousel-indicators {
-    bottom: -45px;
+  bottom: -45px;
 }
 
 .home-page #features-carousel .carousel-indicators li {
@@ -8598,20 +8653,20 @@ body.landing-page {
 }
 
 .home-page #features-carousel .carousel-indicators .active {
-    background-color: #40cac1;    
-    width: 14px;
-    height: 14px;
+  background-color: #40cac1;    
+  width: 14px;
+  height: 14px;
 }
 
 .home-page #features-carousel .carousel-indicators li {
 	width: 14px;
-    height: 14px;
+  height: 14px;
 }
 
 .demo-page .top-bar .row {
 	background-image: url(/images/shattered.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .demo-page .text-centre {
@@ -8693,7 +8748,7 @@ body.landing-page {
 
 .features-page .image1 img {
 	width: 100%;
-	height: 300px;
+  margin-bottom: 30px;
 }
 
 .features-page .customizable-block {

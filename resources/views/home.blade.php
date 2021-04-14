@@ -17,6 +17,20 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
     <body>
+        <div class="header container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="/images/AnimalsFirst_logo_large.png" alt="logo" />
+                </div>
+                <ul class="nav-items">
+                    <li class="nav"><h4>HOME</h4></li>
+                    <li class="nav"><h4>ABOUT</h4></li>
+                    <li class="nav"><h4>FEATURES</h4></li>
+                    <li class="nav"><h4>CONTACT</h4></li>
+                    <li class="nav"><h4>LOGIN</h4></li>
+                </ul>
+            </div>
+        </div>
         <div class="home-page page-wrapper container">
             <section class="top-bar">
                 <div class="row">
@@ -128,28 +142,64 @@
                             <li><img src="/images/icons/041321_animalsfirst_icons-22__1_.png" alt="" /><h4>FEATURE OF ADOPT PORTAL HERE</h4></li>
                             <li><img src="/images/icons/041321_animalsfirst_icons-22__1_.png" alt="" /><h4>FEATURE OF ADOPT PORTAL HERE</h4></li>
                         </ul>
-                        <div class="caption">
-                            <img src="/images/congruent_pentagon.png" alt="" />
-                        </div>
                     </div>
                     <div class="col-md-6 col-xs-12">
                         <div class="caption">
                             <img src="/images/congruent_pentagon.png" alt="" />
                         </div>
-                        <div class="f-title">
-                            <h1 style="margin-left: 0">TESTIMONIALS</h1>
-                        </div>
-                        <div class="testimonial">
-                            <span class="quote">&#8220;</span>
-                            <div>
-                                <p>We love AnimalsFirst, so many different aspects of sheltering animals are addressed for us and they have been greate with corresponding and helping us handle any issues
-                                </p>
-                                <h4>- Help Humane</h4>
-                                <div class="btns m-t-xl">
-                                    <button class="btn btn-lg"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></button>
-                                    <button class="btn btn-lg"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></button>
+                    </div>
+                </div>
+                <div class="row m-t-md">
+                    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-12">
+                                        <div class="caption">
+                                            <img src="/images/congruent_pentagon.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xs-12">
+                                        <div class="f-title">
+                                            <h1 style="margin-left: 0">TESTIMONIALS</h1>
+                                        </div>
+                                        <div class="testimonial">
+                                            <span class="quote">&#8220;</span>
+                                            <div>
+                                                <p>We love AnimalsFirst, so many different aspects of sheltering animals are addressed for us and they have been greate with corresponding and helping us handle any issues
+                                                </p>
+                                                <h4>- Help Humane</h4>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-12">
+                                        <div class="caption">
+                                            <img src="/images/congruent_pentagon.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xs-12">
+                                        <div class="f-title">
+                                            <h1 style="margin-left: 0">TESTIMONIALS</h1>
+                                        </div>
+                                        <div class="testimonial">
+                                            <span class="quote">&#8220;</span>
+                                            <div>
+                                                <p>We love AnimalsFirst, so many different aspects of sheltering animals are addressed for us and they have been greate with corresponding and helping us handle any issues
+                                                </p>
+                                                <h4>- Help Humane</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btns">
+                            <a class="btn btn-lg" href="#testimonial-carousel" data-slide="prev"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
+                            <a class="btn btn-lg" href="#testimonial-carousel" data-slide="next"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
                         </div>
                     </div>
                 </div>
@@ -165,6 +215,17 @@
                     </div>
                 </div>
             </section>
+        </div>
+        <div class="footer-wraper container">
+            <div class="footer-content">
+                <p>@ 2021 AnimalsFirst.com</p>
+                <ul>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">79 madison Ave 15th Floor, NY, NY 10016</a></li>
+                </ul>
+            </div>
         </div>
     </body>
 </html>

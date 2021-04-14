@@ -15,6 +15,20 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     </head>
     <body>
+        <div class="header container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="/images/AnimalsFirst_logo_large.png" alt="logo" />
+                </div>
+                <ul class="nav-items">
+                    <li class="nav"><h4>HOME</h4></li>
+                    <li class="nav"><h4>ABOUT</h4></li>
+                    <li class="nav"><h4>FEATURES</h4></li>
+                    <li class="nav"><h4>CONTACT</h4></li>
+                    <li class="nav"><h4>LOGIN</h4></li>
+                </ul>
+            </div>
+        </div>            
         <div class="features-page page-wrapper container">
             <section class="top-bar">
                 <div class="row">
@@ -29,7 +43,7 @@
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
                         <div class="image1">
-                            <img src="/images/congruent_pentagon.png" alt="" />
+                            <img src="/images/adobestock_64562624_720.jpg" alt="" />
                         </div>
                         <div class="f-cell">
                             <div class="f-title">
@@ -233,6 +247,17 @@
                     </div>
                 </div>
             </section>
+        </div>
+        <div class="footer-wraper container">
+            <div class="footer-content">
+                <p>@ 2021 AnimalsFirst.com</p>
+                <ul>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">79 madison Ave 15th Floor, NY, NY 10016</a></li>
+                </ul>
+            </div>
         </div>
     </body>
 </html>
