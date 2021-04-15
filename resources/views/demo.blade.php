@@ -144,19 +144,37 @@
                     </div>
                 </div>
                 <div class="row m-t-xl">
+                    <div class="f-title text-centre" style="justify-content: center">
+                        <h1 style="margin-left: 0">TESTIMONIALS</h1>
+                    </div>
                     <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
                         <div class="carousel-inner">
                             <div class="item active">
                                 <div class="row">
                                     <div class="col-md-6 col-xs-12">
                                         <div class="caption">
-                                            <img src="/images/congruent_pentagon.png" alt="" />
+                                            <img src="/images/testimonial1.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-xs-12">
-                                        <div class="f-title">
-                                            <h1 style="margin-left: 0">TESTIMONIALS</h1>
+                                        <div class="testimonial">
+                                            <span class="quote">&#8220;</span>
+                                            <div>
+                                                <p>AnimalsFirst software provides us with the flexibility and special features we require to manage all aspects of our animal shelter operations; normal shelter operations, animal control, vetting/surgery and transport.  The software give us the ability to make many changes ourselves but for major changes requiring AnimalsFirst help, Gerald and his staff quickly respond to our needs.
+                                                </p>
+                                            </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-12">
+                                        <div class="caption">
+                                            <img src="/images/7.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xs-12">
                                         <div class="testimonial">
                                             <span class="quote">&#8220;</span>
                                             <div>
@@ -172,19 +190,51 @@
                                 <div class="row">
                                     <div class="col-md-6 col-xs-12">
                                         <div class="caption">
-                                            <img src="/images/congruent_pentagon.png" alt="" />
+                                            <img src="/images/testimonial2.png" alt="" />
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-xs-12">
-                                        <div class="f-title">
-                                            <h1 style="margin-left: 0">TESTIMONIALS</h1>
-                                        </div>
                                         <div class="testimonial">
                                             <span class="quote">&#8220;</span>
                                             <div>
-                                                <p>We love AnimalsFirst, so many different aspects of sheltering animals are addressed for us and they have been greate with corresponding and helping us handle any issues
+                                                <p>Animalsfirst is extremely user friendly and easy to learn how to use. Any questions that come up are answered in a timely manner with a thorough explanation.
                                                 </p>
-                                                <h4>- Help Humane</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-12">
+                                        <div class="caption">
+                                            <img src="/images/testimonial3.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xs-12">
+                                        <div class="testimonial">
+                                            <span class="quote">&#8220;</span>
+                                            <div>
+                                                <p>Animals First is incredibly user friendly and we love that we can customize forms etc. on our own. Customer support is very helpful, friendly and responsive. We are very satisfied with our decision to start usin g Animals First for our kennel, adoption and health tracking needs!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-12">
+                                        <div class="caption">
+                                            <img src="/images/testimonial4.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xs-12">
+                                        <div class="testimonial">
+                                            <span class="quote">&#8220;</span>
+                                            <div>
+                                                <p>AnimalsFirst has given Big Bones Canine Rescue the tools to meet the challenges of double digit year-over-year growth in applications and adoptions, all while saving us tens of thousands of dollars yearly.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
