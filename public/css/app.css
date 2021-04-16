@@ -8561,33 +8561,33 @@ body.landing-page {
   object-position: center;*/
 }
 
-.page-wrapper .features ul {
+.page-wrapper ul {
 	list-style: none;
 	padding: 0;
 }
 
-.page-wrapper .features ul li {
+.page-wrapper ul li {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.page-wrapper .features ul li img {
+.page-wrapper ul li img {
   width: 20px;
   height: 20px;
   margin-right: 10px;
 }
 
-.page-wrapper .features ul li h4 {
+.page-wrapper ul li h4 {
 	margin: auto 0;
 }
 
-.page-wrapper .features .testimonial {
+.page-wrapper .testimonial {
 	display: flex;
 	margin-top: 30px;
 }
 
-.page-wrapper .features .testimonial .quote {
+.page-wrapper .testimonial .quote {
   font-size: 130px;
   color: #b5bfc6;
   line-height: 0.8;
@@ -8743,7 +8743,7 @@ body.landing-page {
 }
 
 .features-page .features > .row {
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 }
 
 .features-page .features .f-title h1 {
@@ -8759,31 +8759,34 @@ body.landing-page {
   margin-bottom: 30px;
 }
 
-.features-page .customizable-block {
-	background: #736eb2;
-	color: #ffffff;
-    padding: 20px 65px;
-    margin-left: -80px;
-    margin-right: -80px;
+.features-page.customizable-block {
+  background: #736eb2;
+  color: #ffffff;
+  padding: 20px 65px;
 }
 
-.features-page .customizable-block h2 {
+.features-page.customizable-block .container {
+  margin: auto;
+  padding: 0 70px;
+}
+
+.features-page.customizable-block h2 {
 	color: #ffffff;
 }
 
-.features-page .customizable-block h3 {
+.features-page.customizable-block h3 {
 	color: #ffffff;	
 	font-weight: 500;
 }
 
-.features-page .customizable-block h1 {
+.features-page.customizable-block h1 {
 	color: #ffffff;	
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.features-page .customizable-block h1::before {
+.features-page.customizable-block h1::before {
 	content: '';
     width: 50px;
     height: 2px;
@@ -8791,7 +8794,7 @@ body.landing-page {
     margin-right: 25px;
 }
 
-.features-page .customizable-block h1::after {
+.features-page.customizable-block h1::after {
 	content: '';
 	width: 50px;
     height: 2px;
@@ -8799,11 +8802,11 @@ body.landing-page {
     margin-left: 25px;
 }
 
-.features-page .customizable-block .c-cell {
+.features-page.customizable-block .c-cell {
 	text-align: center;
 }
 
-.features-page .customizable-block .c-cell p {
+.features-page.customizable-block .c-cell p {
 	text-align: left;
 }
 
@@ -8811,12 +8814,15 @@ body.landing-page {
 	background: #736eb2;
 }
 
-.features-page .adoption-block {
-    background: #eff0f1;
+.features-page.adoption-block {
+  background: #eff0f1;
   text-align: left;
   padding: 20px 65px;
-  margin-left: -80px;
-  margin-right: -80px;
+}
+
+.features-page.adoption-block .container {
+  margin: auto;
+  padding: 0px 80px;
 }
 
 .thankyou-page {

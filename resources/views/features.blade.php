@@ -90,50 +90,56 @@
                         </div>
                     </div>
                 </div>
-                <div class="row customizable-block">
-                    <div class="col-md-12 col-xs">
-                        <center>
-                            <h1>FULLY CUSTOMIZABLE</h1>
-                            <h3>Customized and controlled by the user to monitor what you want - when and how you want to - from intake through outcome.</h3>
-                        </center>
-                    </div>
-                    <div class="col-md-12 col-xs-12">
-                        <div class="row">
-                            <div class="col-md-4 col-xs-12 c-cell">
-                                <img src="" alt="" />
-                                <h2>FLEXIBLE <br/> INTERFACE</h2>
-                                <p>Every aspect of the AnimalsFirst platformis customizable. Using drag-and-drop functionality, users can create unique new fields and change existing fields for any specfic subject area your organization wants or needs to monitor.</p>
-                            </div>
-                            <div class="col-md-4 col-xs-12 c-cell">
-                                <img src="" alt="" />
-                                <h2>UNLIMITED <br/> STORAGE</h2>
-                                <p>Scalable to meet your organization's constantly evolving needs, AnimalsFirst ensures you're able to store all of your most important documents and files in one secure location and access that information whenever you need it.</p>
-                            </div>
-                            <div class="col-md-4 col-xs-12 c-cell">
-                                <img src="" alt="" />
-                                <h2>PROGRAMMABLE <br/> ALERTS</h2>
-                                <p>Maximize efficiency by installing notifications and alerts to ensure animals receive the attention they need at the specific time they need it. For example, medication alerts and scheduled veterinary appointments can e set up as a reminder via email to ensure no task is overlooked.</p>
-                            </div>
+            </section>
+        </div>
+        <section class="features-page page-wrapper customizable-block">
+            <div class="row container">
+                <div class="col-md-12 col-xs">
+                    <center>
+                        <h1>FULLY CUSTOMIZABLE</h1>
+                        <h3>Customized and controlled by the user to monitor what you want - when and how you want to - from intake through outcome.</h3>
+                    </center>
+                </div>
+                <div class="col-md-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-4 col-xs-12 c-cell">
+                            <img src="" alt="" />
+                            <h2>FLEXIBLE <br/> INTERFACE</h2>
+                            <p>Every aspect of the AnimalsFirst platformis customizable. Using drag-and-drop functionality, users can create unique new fields and change existing fields for any specfic subject area your organization wants or needs to monitor.</p>
                         </div>
-                        <div class="row">
-                            <div class="col-md-4 col-xs-12 c-cell">
-                                <img src="" alt="" />
-                                <h2>SPECIALIZED <br/> REPORTING</h2>
-                                <p>View operations statistics, create category tags, develop daily reporting notificatinos and produce completely customized animal reports, including length of stay and other statistics, that assist with shelter capacity planning and organizaitional operations.</p>
-                            </div>
-                            <div class="col-md-4 col-xs-12 c-cell">
-                                <img src="" alt="" />
-                                <h2>CUSTOMIZABLE <br/> ROLES & PERMISSIONS</h2>
-                                <p>AnimalsFirst enables organizations to create, assign and manage roles and permissions, defining that user's ability to view, create or edit defined aspects of the system.</p>
-                            </div>
-                            <div class="col-md-4 col-xs-12 c-cell">
-                                <img src="" alt="" />
-                                <h2>WEBSITE <br/> INTEGRATION</h2>
-                                <p>AnimalsFirst has APIs, Iframes and Wordpress plug-ins to help you integrate the animals in your care into your existing website.</p>
-                            </div>
+                        <div class="col-md-4 col-xs-12 c-cell">
+                            <img src="" alt="" />
+                            <h2>UNLIMITED <br/> STORAGE</h2>
+                            <p>Scalable to meet your organization's constantly evolving needs, AnimalsFirst ensures you're able to store all of your most important documents and files in one secure location and access that information whenever you need it.</p>
+                        </div>
+                        <div class="col-md-4 col-xs-12 c-cell">
+                            <img src="" alt="" />
+                            <h2>PROGRAMMABLE <br/> ALERTS</h2>
+                            <p>Maximize efficiency by installing notifications and alerts to ensure animals receive the attention they need at the specific time they need it. For example, medication alerts and scheduled veterinary appointments can e set up as a reminder via email to ensure no task is overlooked.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-xs-12 c-cell">
+                            <img src="" alt="" />
+                            <h2>SPECIALIZED <br/> REPORTING</h2>
+                            <p>View operations statistics, create category tags, develop daily reporting notificatinos and produce completely customized animal reports, including length of stay and other statistics, that assist with shelter capacity planning and organizaitional operations.</p>
+                        </div>
+                        <div class="col-md-4 col-xs-12 c-cell">
+                            <img src="" alt="" />
+                            <h2>CUSTOMIZABLE <br/> ROLES & PERMISSIONS</h2>
+                            <p>AnimalsFirst enables organizations to create, assign and manage roles and permissions, defining that user's ability to view, create or edit defined aspects of the system.</p>
+                        </div>
+                        <div class="col-md-4 col-xs-12 c-cell">
+                            <img src="" alt="" />
+                            <h2>WEBSITE <br/> INTEGRATION</h2>
+                            <p>AnimalsFirst has APIs, Iframes and Wordpress plug-ins to help you integrate the animals in your care into your existing website.</p>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <div class="features-page page-wrapper container">
+            <section class="features">
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
                         <div class="f-cell">
@@ -174,37 +180,43 @@
                         <div class="image1">
                         </div>
                     </div>
+                </div>                
+            </section>
+        </div>
+        <section class="features-page page-wrapper adoption-block">
+            <div class="row container">
+                <div class="col-md-12 col-xs">
+                    <center><h1>ADOPTION APP</h1></center>
+                    <p>Designed to manage the animal from intake to adoption, the AnimalsFirst adoption portal simplifies the adoption process for animal shelters and rescues as well as adopters looking to add a new pet to their family.</p>
                 </div>
-                <div class="row adoption-block">
-                    <div class="col-md-12 col-xs">
-                        <center><h1>ADOPTION APP</h1></center>
-                        <p>Designed to manage the animal from intake to adoption, the AnimalsFirst adoption portal simplifies the adoption process for animal shelters and rescues as well as adopters looking to add a new pet to their family.</p>
-                    </div>
-                    <div class="col-md-12 col-xs-12">
-                        <div class="row">
-                            <div class="col-md-6 col-xs-12 c-cell">
-                                <img src="" alt="" />
-                            </div>
-                            <div class="col-md-6 col-xs-12 c-cell">
-                                <p>With customizable profiles of each animal and integration with third-party adoption partners, AnimalsFirst helps shelters and rescue organizations achieve goals of shorter stays and faster adoptions. Plus, the portal ensures new pet parents don't have to jump through hoops to get approved and that they wwon't waste time searching the wrong profiles to find their perfect pet.</p>
-                                <ul>
-                                    <li>
-                                        <img src="" alt="" />
-                                        <h4>Customizable Profiles</h4>
-                                    </li>
-                                    <li>
-                                        <img src="" alt="" />
-                                        <h4>Third-Party Integration</h4>
-                                    </li>
-                                    <li>
-                                        <img src="" alt="" />
-                                        <h4>Paperless Adoption</h4>
-                                    </li>
-                                </ul>
-                            </div>
+                <div class="col-md-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12 c-cell">
+                            <img src="" alt="" />
+                        </div>
+                        <div class="col-md-6 col-xs-12 c-cell">
+                            <p>With customizable profiles of each animal and integration with third-party adoption partners, AnimalsFirst helps shelters and rescue organizations achieve goals of shorter stays and faster adoptions. Plus, the portal ensures new pet parents don't have to jump through hoops to get approved and that they wwon't waste time searching the wrong profiles to find their perfect pet.</p>
+                            <ul>
+                                <li>
+                                    <img src="" alt="" />
+                                    <h4>Customizable Profiles</h4>
+                                </li>
+                                <li>
+                                    <img src="" alt="" />
+                                    <h4>Third-Party Integration</h4>
+                                </li>
+                                <li>
+                                    <img src="" alt="" />
+                                    <h4>Paperless Adoption</h4>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <div class="features-page page-wrapper container">
+            <section class="features">                
                 <div class="row fosters-block">
                     <div class="col-md-12 col-xs">
                         <center><h1>FOSTERS PORTAL</h1></center>
