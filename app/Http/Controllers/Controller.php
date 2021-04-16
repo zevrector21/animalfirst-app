@@ -16,7 +16,7 @@ class Controller extends BaseController
     public function demo(Request $request)
     {
         $to_name = $request->post('name');
-        $to_email = 'coralisland8327@gmail.com';
+        $to_email = $request->post('email');
         $data = array(
             'name'=>$to_name, 
             "shelter_name" => $request->post('shelter_name'),
@@ -27,10 +27,9 @@ class Controller extends BaseController
         Mail::send('emails', $data, function($message) use ($to_name, $to_email) {
             $message->to($to_email, $to_name)->subject('Artisans Web Testing Mail');
             $message->from('zevrector21@gmail.com','Zev');
-        });        
+        });
 
-        echo "Basic Email Sent. Check your inbox.";
-        return redirect('/demo');
+        return redirect('/thankyou');
     }
 }
 

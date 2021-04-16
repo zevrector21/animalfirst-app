@@ -21,9 +21,9 @@
                     <img src="/images/AnimalsFirst_logo_large.png" alt="logo" />
                 </div>
                 <ul class="nav-items">
-                    <li class="nav"><h4>HOME</h4></li>
+                    <li class="nav"><a href="/home"><h4>HOME</h4></a></li>
                     <li class="nav"><h4>ABOUT</h4></li>
-                    <li class="nav"><h4>FEATURES</h4></li>
+                    <li class="nav"><a href="features"><h4>FEATURES</h4></a></li>
                     <li class="nav"><h4>CONTACT</h4></li>
                     <li class="nav"><h4>LOGIN</h4></li>
                 </ul>
@@ -245,7 +245,7 @@
                         <p>Discover why our platform was designed to put animals first</p>
                     </div>
                     <div class="col-md-4 col-xs-12">
-                        <button class="btn btn-lg request-demo">REQUEST A DEMO</button>
+                        <a href="/demo" class="btn btn-lg request-demo">REQUEST A DEMO</a>
                     </div>
                 </div>
             </div>

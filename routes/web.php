@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::get('/demo', function () {
@@ -27,4 +27,8 @@ Route::get('/features', function () {
 
 Route::get('/home', function () {
     return view('home');
+});
+
+Route::get('/thankyou', function () {
+    return view('thankyou');
 });

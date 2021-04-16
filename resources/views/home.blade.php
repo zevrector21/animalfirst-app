@@ -23,9 +23,9 @@
                     <img src="/images/AnimalsFirst_logo_large.png" alt="logo" />
                 </div>
                 <ul class="nav-items">
-                    <li class="nav"><h4>HOME</h4></li>
+                    <li class="nav"><a href="/home"><h4>HOME</h4></a></li>
                     <li class="nav"><h4>ABOUT</h4></li>
-                    <li class="nav"><h4>FEATURES</h4></li>
+                    <li class="nav"><a href="features"><h4>FEATURES</h4></a></li>
                     <li class="nav"><h4>CONTACT</h4></li>
                     <li class="nav"><h4>LOGIN</h4></li>
                 </ul>
@@ -38,7 +38,7 @@
                         <h1>Your Comprehensive, End-to-End One-Stop Animal Management Software</h1>
                         <h3>Our one-stop platform is customizable to your needs, making animal management easy and effient.</h3>
                         <div>
-                            <button class="btn btn-lg btn-primary">REQUEST A DEMO</button>
+                            <a href="/demo" class="btn btn-lg btn-primary">REQUEST A DEMO</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                     </div>
                 </div>
                 <div class="m-t-md">
-                    <button class="btn btn-lg view-all-features">VIEW ALL FEATURES</button>
+                    <a href="/features" class="btn btn-lg view-all-features">VIEW ALL FEATURES</a>
                 </div>
                 <div class="row m-t-xl">
                     <div class="col-md-6 col-xs-12 phone-img">
@@ -263,7 +263,7 @@
                         <p>Discover why our platform was designed to put animals first</p>
                     </div>
                     <div class="col-md-4 col-xs-12">
-                        <button class="btn btn-lg request-demo">REQUEST A DEMO</button>
+                        <a href="/demo" class="btn btn-lg request-demo">REQUEST A DEMO</a>
                     </div>
                 </div>
             </div>

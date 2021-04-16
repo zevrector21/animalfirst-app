@@ -23,9 +23,9 @@
                     <img src="/images/AnimalsFirst_logo_large.png" alt="logo" />
                 </div>
                 <ul class="nav-items">
-                    <li class="nav"><h4>HOME</h4></li>
+                    <li class="nav"><a href="/home"><h4>HOME</h4></a></li>
                     <li class="nav"><h4>ABOUT</h4></li>
-                    <li class="nav"><h4>FEATURES</h4></li>
+                    <li class="nav"><a href="features"><h4>FEATURES</h4></a></li>
                     <li class="nav"><h4>CONTACT</h4></li>
                     <li class="nav"><h4>LOGIN</h4></li>
                 </ul>
@@ -62,27 +62,27 @@
                             <div class="row">                                
                                 <div class="col-md-6 col-xs-12 m-t-md">
                                     <label for="name">YOUR NAME<span>*</span></label>
-                                    <input id="name" type="text" placeholder="Jack Wayley" class="form-control" required />
+                                    <input id="name" name="name" type="text" placeholder="Jack Wayley" class="form-control" required />
                                 </div>
                                 <div class="col-md-6 col-xs-12 m-t-md">
                                     <label for="email">YOUR EMAIL<span>*</span></label>
-                                    <input id="email" type="email" placeholder="jackwayley@gmail.com" class="form-control" required />
+                                    <input id="email" type="email" name="email" placeholder="jackwayley@gmail.com" class="form-control" required />
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-xs-12 m-t-md">
                                     <label for="shelter_name">SHELTER NAME<span>*</span></label>
-                                    <input id="shelter_name" placeholder="Web design" class="form-control" required />
+                                    <input id="shelter_name" name="shelter_name" placeholder="Web design" class="form-control" required />
                                 </div>
                                 <div class="col-md-6 col-xs-12 m-t-md">
                                     <label for="phone">YOUR PHONE NUMBER<span>*</span></label>
-                                    <input id="phone" value="" placeholder="+1-800-643-4500" class="form-control" required />
+                                    <input id="phone" name="phone" value="" placeholder="+1-800-643-4500" class="form-control" required />
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12 col-xs-12 m-t-md">
                                     <label for="quetion">WHAT QUESTIONS DO YOU HAVE? WHAT FEATURES ARE YOU MOST IN INTERESTED IN?</label>
-                                    <textarea rows="5" id="quetion" placeholder="Hi, there, I would like to ..." class="form-control"></textarea>
+                                    <textarea rows="5" id="description" name="description" placeholder="Hi, there, I would like to ..." class="form-control"></textarea>
                                 </div>
                             </div>
                             <div class="m-t-md">
